@@ -43,7 +43,7 @@ Update your `wp_nav_menu()` function in `header.php` to use the new walker by ad
 		'container_id'      => 'bs-example-navbar-collapse-1',
                 'menu_class'        => 'nav navbar-nav',
                 'fallback_cb'       => 'wp_bootstrap_navwalker::fallback',
-                'walker'            => new wp_bootstrap_navwalker())
+                'walker'            => new wp_bootstrap_navwalker()
             );
         ?>
 ```
